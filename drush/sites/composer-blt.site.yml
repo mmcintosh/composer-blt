@@ -1,0 +1,6 @@
+local:
+    root: /var/www/composer-blt/docroot
+    uri: 'http://local.composer-blt.com'
+    host: local.composer-blt.com
+    user: vagrant
+    ssh: { options: '-o PasswordAuthentication=no -i $HOME/.vagrant.d/insecure_private_key' }
